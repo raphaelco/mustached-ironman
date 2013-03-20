@@ -24,11 +24,11 @@ function Action(action) {
 Actions = {};
 
 var FLYING		= new Action("flying");
-var SHOOTING		= new Action("shooting");
-var EXPLODING		= new Action("exploding");
+var SHOOTING	= new Action("shooting");
+var EXPLODING	= new Action("exploding");
 var LANDED		= new Action("landed");
 
-Actions["flying"]	= FLYING;
-Actions["shooting"]	= SHOOTING;
+Actions["flying"]		= FLYING;
+Actions["shooting"]		= SHOOTING;
 Actions["exploding"]	= EXPLODING;
-Actions["landed"]	= LANDED;
+Actions["landed"]		= LANDED;

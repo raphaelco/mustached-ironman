@@ -1,6 +1,6 @@
 var CANVAS_WIDTH	= 800;
 var CANVAS_HEIGHT	= 500;
-var FPS 		= 20;
+var FPS				= 20;
 
 enemies = new Array();
 enemies.push(new Enemy());
@@ -22,7 +22,7 @@ function update() {
 	//Remove dead enemies from list
 	enemies = enemies.filter(function(enemy) {
                 return enemy.active;
-        });
+	});
 };
 
 function draw() {
