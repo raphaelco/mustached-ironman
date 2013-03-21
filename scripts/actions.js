@@ -21,7 +21,7 @@ function Action(action) {
 
 
 
-Actions = {};
+var Actions = {};
 
 var FLYING		= new Action("flying");
 var SHOOTING	= new Action("shooting");

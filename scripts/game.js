@@ -2,12 +2,12 @@ var CANVAS_WIDTH	= 800;
 var CANVAS_HEIGHT	= 500;
 var FPS				= 20;
 
-enemies = new Array();
+var enemies = new Array();
 enemies.push(new Enemy());
 
 var hero = new Hero();
 
-environment = new Environment();
+var environment = new Environment();
 
 var canvasElement = document.getElementById("canvasGame");
 var canvas = canvasElement.getContext("2d");
